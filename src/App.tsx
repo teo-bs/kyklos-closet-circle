@@ -11,6 +11,7 @@ import Index from "./pages/Index";
 import Feed from "./pages/Feed";
 import Sell from "./pages/Sell";
 import ListingDetail from "./pages/ListingDetail";
+import PaymentSuccess from "./pages/PaymentSuccess";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -31,6 +32,7 @@ const App = () => (
                   <Route path="/feed" element={<Feed />} />
                   <Route path="/sell" element={<Sell />} />
                   <Route path="/listing/:id" element={<ListingDetail />} />
+                  <Route path="/payment-success" element={<PaymentSuccess />} />
                   <Route path="*" element={<NotFound />} />
                 </Routes>
               </main>

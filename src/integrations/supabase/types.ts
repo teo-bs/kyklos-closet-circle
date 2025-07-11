@@ -154,6 +154,7 @@ export type Database = {
           seller_id: string
           status: string | null
           stripe_payment_intent_id: string | null
+          stripe_session_id: string | null
           updated_at: string
         }
         Insert: {
@@ -165,6 +166,7 @@ export type Database = {
           seller_id: string
           status?: string | null
           stripe_payment_intent_id?: string | null
+          stripe_session_id?: string | null
           updated_at?: string
         }
         Update: {
@@ -176,6 +178,7 @@ export type Database = {
           seller_id?: string
           status?: string | null
           stripe_payment_intent_id?: string | null
+          stripe_session_id?: string | null
           updated_at?: string
         }
         Relationships: [
