@@ -14,8 +14,8 @@ const Index = () => {
             Welcome to <span className="text-[#715AFF]">Kýklos</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Your circular closet marketplace where sustainability meets style. 
-            Buy and sell pre-loved fashion from your campus community.
+            Buy & sell fits in 15 seconds. 
+            Your circular closet marketplace where sustainability meets style.
           </p>
         </div>
 
