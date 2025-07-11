@@ -30,9 +30,7 @@ export const useListingDetail = (listingId: string) => {
       }
 
       console.log('Listing details fetched:', data);
-      return data as Tables<'listings'> & {
-        profiles: { email: string } | null;
-      };
+      return data;
     },
     enabled: !!listingId,
   });
